@@ -1729,7 +1729,7 @@ async function cargarDemoPorDefecto() {
       return;
     }
 
-    // Usamos exactamente la misma lógica que cuando cargas un archivo a mano
+    // Misma lógica que al cargar archivo a mano
     especimenes = data;
     mensajeSinDatos.style.display = 'none';
     mensajeSinDatosEstudio.style.display = 'none';
@@ -1749,11 +1749,6 @@ async function cargarDemoPorDefecto() {
 }
 
 // Al cargar la página intentamos cargar la demo
-window.addEventListener('DOMContentLoaded', () => {
-  cargarDemoPorDefecto();
-});
-
-}
 window.addEventListener('DOMContentLoaded', () => {
   cargarDemoPorDefecto();
 });
